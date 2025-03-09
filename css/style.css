@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:600);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular);
+
+
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('../fonts/googlesans_medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+  }
