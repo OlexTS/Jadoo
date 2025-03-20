@@ -209,8 +209,10 @@ body {
 .main-section {
 }
 .main-section__container {
+  display: flex;
 }
 .main-section__content {
+  max-width: 39.375rem;
 }
 .main-section__label {
 }
@@ -226,4 +228,13 @@ body {
 }
 .main-section__video-link {
 }
+.main-section__image{
+  width: 100%;
+  max-width: 49rem;
+}
+.main-section__image img{
+  width: 100%;
+  height: auto;
+}
+
 
