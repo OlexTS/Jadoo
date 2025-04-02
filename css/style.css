@@ -355,7 +355,7 @@ body {
 
 .category-section__item:nth-child(2) {
   position: relative;
-  top: -20px;
+  top: -1.25rem;
   border-radius: 2.25rem;
   min-width: 16.6875rem;
   min-height: 19.625rem;
@@ -384,7 +384,7 @@ body {
 }
 .category-section__item:last-child {
 position: relative;
-top: 5px;
+top: .3125rem;
 }
 .category-section__image {
 }
