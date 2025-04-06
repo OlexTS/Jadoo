@@ -352,7 +352,6 @@ body {
 .category-section__item {
 }
 
-
 .category-section__item:nth-child(2) {
   position: relative;
   top: -1.25rem;
@@ -383,8 +382,8 @@ body {
   margin-bottom: 1.875rem;
 }
 .category-section__item:last-child {
-position: relative;
-top: .3125rem;
+  position: relative;
+  top: 0.3125rem;
 }
 .category-section__image {
 }
@@ -403,4 +402,94 @@ top: .3125rem;
   max-width: 11.3125rem;
   letter-spacing: 0.04rem;
   margin: 0 auto;
+}
+
+/* Destinations section */
+
+.page__destinations {
+}
+.destinations-section {
+  margin-bottom: 11.625rem;
+}
+.destinations-section__container {
+  text-align: center;
+}
+.destinations-section__label {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+.destinations-section__title {
+  margin-bottom: 3.75rem;
+}
+.title {
+}
+.destinations-section__list {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.destinations-section__list::after {
+  content: "";
+  position: absolute;
+  bottom: 2.9375rem;
+  right: 56px;
+  z-index: -1;
+  width: 6rem;
+  height: 15.75rem;
+  background: url("../img/destinations/decore.png");
+}
+.destinations-section__item {
+}
+.destinations-section__item:first-child {
+  margin-right: 2.1875rem;
+  margin-left: 1.125rem;
+}
+.destinations-section__item:nth-child(2) {
+  margin-right: 3.75rem;
+}
+.desstinations-section__img {
+  max-width: 19.6875rem;
+  max-height: 28.5625rem;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0), 0 8px 7px 0 rgba(0, 0, 0, 0.01),
+    0 20px 13px 0 rgba(0, 0, 0, 0.01), 0 39px 25px 0 rgba(0, 0, 0, 0.01),
+    0 65px 47px 0 rgba(0, 0, 0, 0.02), 0 100px 80px 0 rgba(0, 0, 0, 0.02);
+  background: url("path_to_image");
+  border-radius: 1.5rem;
+  max-width: 19.625rem;
+  max-height: 28.5625rem;
+}
+.destinations-section__card {
+  border-radius: 0 0 1.5rem 1.5rem;
+  width: 19.6875rem;
+  height: 8.125rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding: 1.6875rem 1.5625rem 2.625rem 1.25rem;
+}
+.destinations-section__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.1875rem;
+}
+.destinations-section__place {
+  font-size: 1.125rem;
+  line-height: 1.245;
+}
+.destinations-section__price {
+  font-size: 1.125rem;
+  line-height: 1.245;
+}
+.destinations-section__duration {
+  display: flex;
+  justify-content: start;
+  gap: 0.9375rem;
+}
+.destinations-section__description {
+  font-size: 1rem;
+  line-height: 1.245;
 }
