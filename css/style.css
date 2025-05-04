@@ -709,3 +709,8 @@ body {
   border-radius: inherit;
   width: 40%;
 }
+
+.swiper {
+  width: 33.8125rem;
+  height: 17.4375rem;
+ }
