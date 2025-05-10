@@ -714,3 +714,92 @@ body {
   width: 33.8125rem;
   height: 17.4375rem;
  }
+
+ /* Testimonials section */
+
+ .page__testimonials {
+}
+.testimonials-section {
+}
+.testimonials-section__container {
+  display: flex;
+}
+.testimonials-section__box-1 {
+  padding-left: 1.875rem;
+}
+.testimonials-section__label {
+  font-weight: 600;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+.testimonials-section__swiper {
+
+
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.testimonials-section__title {
+  
+}
+.title {
+}
+.swiper-pagination {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  bottom: 0 !important; /* або інше значення, якщо потрібно */
+  top: 11.25rem !important;
+  position: absolute;
+
+}
+.swiper-pagination-bullet{
+  margin: 12.5px !important; /* Відстань між точками (горизонтальна) */
+  background-color: #e5e5e5; /* Колір точок */
+  width: .75rem;
+  height: .75rem;
+  opacity: 1;
+  
+}
+.swiper-pagination-bullet-active{
+  background-color: #39425d;
+}
+.swiper-pagination-bullet:first-child {
+  margin-left: 0 !important;
+}
+
+.swiper-pagination-bullet:last-child {
+  margin-right: 0 !important;
+}
+.swiper-pagination--box1 {
+}
+.testimonials-section__box-2 {
+}
+.box-2 {
+}
+.testimonials-section__box-2-swiper {
+}
+.box-2__container {
+}
+.box-2__avatar {
+}
+.box-2__description {
+}
+.box-2__text-review {
+}
+.box-2__author-name {
+}
+.box-2__author-location {
+}
+.swiper-button-prev {
+}
+.swiper-button-prev--box2 {
+}
+.swiper-button-next {
+}
+.swiper-button-next--box2 {
+}
