@@ -10,11 +10,15 @@ document.addEventListener('DOMContentLoaded', function () {
   const swiper1 = new Swiper('.testimonials-section__box-2-swiper', {
     direction: 'vertical',
     loop: true,
+    // slidesPerView: 'auto',
+    // centeredSlides: true,
+    // spaceBetween: 20,
    
     navigation: {
       nextEl: '.swiper-button-next--box2',
       prevEl: '.swiper-button-prev--box2',
     },
+    
   });
 });
 
