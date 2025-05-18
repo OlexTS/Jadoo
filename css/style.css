@@ -773,19 +773,16 @@ body {
 }
 .testimonials-section__box-2 {
   position: relative;
-  /* padding: 2.125rem; */
-  /* width: 41.8125rem !important;
-  height: 22.25rem !important; */
+  --swiper-navigation-color: #bcb7c2;
   overflow: visible;
   z-index: 2;
 }
 .box-2 {
-  
 }
 .testimonials-section__box-2-swiper {
   overflow: visible !important;
+  --swiper-navigation-size: 0.875rem;
 }
-
 
 .box-2__avatar {
   position: absolute;
@@ -822,9 +819,18 @@ body {
   left: auto;
   right: -1.875rem; /* Відступ праворуч від слайдера */
   width: 0.875rem !important;
-  height: 0.4375rem !important;
+  /* height: 0.4375rem !important; */
   color: #000;
   z-index: 100;
+  --swiper-navigation-color: #bcb7c2;
+  transition: color 0.3s ease;
+  color: var(--swiper-navigation-color);
+}
+.swiper-button-next--box2:hover,
+.swiper-button-prev--box2:hover,
+.swiper-button-next--box2:focus,
+.swiper-button-prev--box2:focus {
+  color: #3e2e4d; /* активний або при наведенні */
 }
 .swiper-button-prev {
 }
