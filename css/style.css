@@ -876,14 +876,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-.brands-section__item  {
+.brands-section__item {
 }
 .brands-section__item:not(:nth-child(3)) img {
   filter: grayscale(1);
 }
-
-
 .brand-section__box {
   border-radius: 10px;
   width: 241px;
@@ -895,8 +894,6 @@ body {
     0 20px 13px 0 rgba(0, 0, 0, 0.01), 0 39px 25px 0 rgba(0, 0, 0, 0.01),
     0 65px 47px 0 rgba(0, 0, 0, 0.02), 0 100px 80px 0 rgba(0, 0, 0, 0.02);
   background: #fff;
-}
-.brands-section__item:nth-child(3) {
 }
 .brands-section__img {
   
