@@ -884,9 +884,9 @@ body {
   filter: grayscale(1);
 }
 .brand-section__box {
-  border-radius: 10px;
-  width: 241px;
-  height: 86px;
+  border-radius: 0.625rem;
+  width: 15.0625rem;
+  height: 5.375rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -896,5 +896,40 @@ body {
   background: #fff;
 }
 .brands-section__img {
+}
+
+/* Subscribe section */
+
+.page__subscribe {
+}
+.subscribe-section {
+  margin: 0 auto;
+  width: 84.6875rem;
+  height: 30.625rem;
+  margin-bottom: 6rem;
+  padding-top: 15px;
+  background: url("/img/subscribe/Group\ 5.png") no-repeat,
+    url("/img/subscribe/Group\ 77.svg") no-repeat;
+
+  background-position: bottom right, top right 75px;
   
+}
+.subscribe-section__container {
+  border-radius: 8.0625rem 1.25rem 1.25rem 1.25rem;
+  width: 73.125rem;
+  height: 25.4375rem;
+  background: #dfd7f9;
+  opacity: 0.2;
+  background-image: url("/img/subscribe/Group\ 42.png"),
+    url("/img/subscribe/Group\ 422.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 0.8125rem bottom, top right;
+}
+.subscribe-section__text {
+}
+.subscribe-section__box {
+}
+.subscribe-section__input {
+}
+.subscribe-section__button {
 }
