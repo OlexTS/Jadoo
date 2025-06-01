@@ -903,16 +903,24 @@ body {
 .page__subscribe {
 }
 .subscribe-section {
+  position: relative;
   margin: 0 auto;
   width: 84.6875rem;
   height: 30.625rem;
   margin-bottom: 6rem;
-  padding-top: 15px;
-  background: url("/img/subscribe/Group\ 5.png") no-repeat,
-    url("/img/subscribe/Group\ 77.svg") no-repeat;
+  /* padding-top: 15px; */
+  background: url("../img/subscribe/Group5.png") no-repeat;
+    
 
-  background-position: bottom right, top right 75px;
+  background-position: bottom right;
   
+}
+.subscribe-img-top {
+  position: absolute;
+  top: -15px;
+  right:75px;
+  z-index: 10;
+  pointer-events: none;
 }
 .subscribe-section__container {
   border-radius: 8.0625rem 1.25rem 1.25rem 1.25rem;
@@ -920,8 +928,8 @@ body {
   height: 25.4375rem;
   background: #dfd7f9;
   opacity: 0.2;
-  background-image: url("/img/subscribe/Group\ 42.png"),
-    url("/img/subscribe/Group\ 422.png");
+  background-image: url("../img/subscribe/Group42.png"),
+    url("../img/subscribe/Group422.png");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 0.8125rem bottom, top right;
 }
